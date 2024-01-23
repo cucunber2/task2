@@ -276,6 +276,8 @@ int main()
     Rand rand = Rand(inputArray, n);
     std::cout << "input= " << rand;
 
+    std::cout << "Вывод" << std::endl;
+
     delete inputArray;
 
     return 0;
